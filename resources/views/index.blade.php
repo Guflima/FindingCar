@@ -30,6 +30,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
+      <a class="navbar-brand" href="#">Finding Car(logo)</a>
       <a class="btn btn-primary" href=" {{ route('login') }} ">Cadastre-se</a>
     </div>
   </nav>
