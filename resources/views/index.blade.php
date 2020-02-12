@@ -93,27 +93,27 @@
   <!-- Testimonials -->
   <section class="testimonials text-center bg-light">
     <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
+      <h2 class="mb-5">Desenvolvedores</h2>
       <div class="row">
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+            <img class="img-fluid rounded-circle mb-3" src="img/gustavo.jpg" alt="">
+            <h5>Gustavo</h5>
+            <p class="font-weight-light mb-0"></p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+            <img class="img-fluid rounded-circle mb-3" src="img/henrique.jpeg" alt="">
+            <h5>Henrique</h5>
+            <p class="font-weight-light mb-0"></p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+            <img class="img-fluid rounded-circle mb-3" src="img/endrik.jpeg" alt="">
+            <h5>Endrik</h5>
+            <p class="font-weight-light mb-0"></p>
           </div>
         </div>
       </div>
@@ -166,7 +166,7 @@
               <a href="#">Politica de privacidade</a>
             </li>
           </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; 2020. Todos os direitos reservados.</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
