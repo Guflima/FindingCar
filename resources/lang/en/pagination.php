@@ -7,9 +7,9 @@ return [
     | Pagination Language Lines
     |--------------------------------------------------------------------------
     |
-    | The following language lines are used by the paginator library to build
-    | the simple pagination links. You are free to change them to anything
-    | you want to customize your views to better match your application.
+    | As seguintes linhas de idioma são usadas pela biblioteca do paginador para criar
+    | os links de paginação simples. Você é livre para alterá-los para qualquer coisa
+    | você deseja personalizar suas visualizações para corresponder melhor ao seu aplicativo.
     |
     */
 
