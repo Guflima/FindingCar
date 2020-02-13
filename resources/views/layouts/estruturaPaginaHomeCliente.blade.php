@@ -30,7 +30,7 @@
      <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
         <div class="container">
-          <a class="navbar-brand" href="#">Finding Car(logo)</a><br>
+          <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png"></a><br>
           <a class="btn btn-danger" href=" {{ route('register') }} ">Cadastre-se</a>
           <a class="btn btn-danger" href=" {{ route('register') }} ">Anunciar Veículo</a>
         </div>
