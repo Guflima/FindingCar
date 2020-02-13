@@ -61,35 +61,7 @@
       </div>
     </div>
   </section>
-
-  <!-- Image Showcases -->
-  <section class="showcase">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Carrp aq</h2>
-          <p class="lead mb-0">aa</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h2>Moto aq</h2>
-          <p class="lead mb-0">aa</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>nao sei oq aq </h2>
-          <p class="lead mb-0">aa</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
+ 
   <!-- Testimonials -->
   <section class="testimonials text-center bg-light">
     <div class="container">
@@ -150,7 +122,7 @@
       <div class="row">
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
           <ul class="list-inline mb-2">
-            <li class="list-inline-item">
+            <li class="list-inline-item text-danger">
               <a href="#">Sobre</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
@@ -172,17 +144,17 @@
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
               <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
+                <i class="fab fa-facebook text-danger fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item mr-3">
               <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+                <i class="fab fa-twitter-square text-danger fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
+                <i class="fab fa-instagram  text-danger fa-2x fa-fw"></i>
               </a>
             </li>
           </ul>
