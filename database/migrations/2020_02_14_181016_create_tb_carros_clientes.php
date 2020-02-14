@@ -17,6 +17,12 @@ class CreateTbCarrosClientes extends Migration
             $table->tinyIncrements('id_carro');
             $table->string('nome_carro', 30);
             $table->string('marca_carro', 30);
+            $table->istring('Cor',15);
+            $table->istring('Combustivel',25);
+            $table->istring('Ano',10);
+            $table->istring('Cambio',25);
+            $table->istring('Preco',13);
+            $tabel->istring('')
             $table->timestamps();
             $table->engine = 'InnoDB';
             $table->charset = 'utf8';
