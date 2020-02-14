@@ -16,6 +16,9 @@ Route::get('/', function () {
 })->name('principal');
 
 
+Route::get('/url', function () {
+    return view('home');
+});
 
 Auth::routes();
 
