@@ -23,7 +23,8 @@ class CreateTbCarrosClientes extends Migration
             $table->string('Cambio',25);
             $table->string('Preco',13);
             $table->string('quilometragem',7);
-            $table->timestamps();
+            $table->string('mais_dados_dos_veiculos',100);
+            $table->timestamps('creates_data')->nullable();
             $table->engine = 'InnoDB';
             $table->charset = 'utf8';
             $table->collation = 'utf8_unicode_ci';
