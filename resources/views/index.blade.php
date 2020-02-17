@@ -12,7 +12,7 @@
           <h1 class="mb-5">Bem vindo ao Finding Car!</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
+          <form action="{{ route('pesquisar.veiculo') }}"> 
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
                 <input type="email" class="form-control form-control-lg" placeholder="Encontre seu veículo">
