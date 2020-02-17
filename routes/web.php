@@ -11,17 +11,27 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-})->name('principal');
+Route::prefix(parseLocale())->group(function () {
+
+    Route::get('/',function() { 
+        return view(veiculos);
+
+    })->name('veiculos');
+
+    Route::get('/', function () {
+        return view('index');
+    })->name('principal');
 
 
-Route::get('/url', function () {
-    return view('home');
+    Route::get('/url', function () {
+        return view('home');
+    });
+
+    Auth::routes();
+
+    Route::resource('/home', '');
+
+    Route::get('/home', 'HomeController@index')->name('home');
 });
 
-Auth::routes();
 
-Route::resource('/home', '');
-
-Route::get('/home', 'HomeController@index')->name('home');
