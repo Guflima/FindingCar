@@ -15,7 +15,7 @@
           <form action="{{ route('pesquisar.veiculo') }}"> 
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Encontre seu veículo">
+                <input type="text" class="form-control form-control-lg" placeholder="Encontre seu veículo">
                 </div>
               <div class="col-12 col-md-3">
                 <button type="submit" class="btn btn-block btn-lg btn-danger">Vamos lá!</button>
@@ -37,7 +37,7 @@
               <i class="fa fa-car text-danger m-auto "></i>
             </div>
             <h3>Carros seminovos</h3>
-            <p class="lead mb-0">aa</p>
+            <p class="lead mb-0"></p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -46,7 +46,7 @@
               <i class="fa fa-tools   text-danger m-auto "></i>
             </div>
             <h3>Assistência 24 horas</h3>
-            <p class="lead mb-0">a</p>
+            <p class="lead mb-0"></p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -55,7 +55,7 @@
               <i class="fa fa-check text-danger m-auto "></i>
             </div>
             <h3>Transferência Gratuita</h3>
-            <p class="lead mb-0">aa</p>
+            <p class="lead mb-0"></p>
           </div>
         </div>
       </div>
@@ -104,7 +104,7 @@
           <form>
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                <input type="email" class="form-control form-control-lg" placeholder="Encontre seu veículo">
               </div>
               <div class="col-12 col-md-3">
                 <button type="submit" class="btn btn-block btn-lg btn-danger">Vamos lá!</button>

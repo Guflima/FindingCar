@@ -41,10 +41,13 @@ $total_cursos = mysqli_num_rows($resultado_cursos);
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Criar pagina com abas</title>
+		<title>Finding Car pesquisa de veiculos
+		</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
+	
+
 		<div class="container theme-showcase" role="main">
 			<div class="page-header">
 				<div class="row">
@@ -57,11 +60,12 @@ $total_cursos = mysqli_num_rows($resultado_cursos);
 								<label for="exampleInputName2">Pesquisar</label>
 								<input type="text" name="pesquisar" class="form-control" id="exampleInputName2" placeholder="Digitar...">
 							</div>
-							<button type="submit" class="btn btn-primary">Pesquisar</button>
+							<button type="submit" class="btn btn-danger">Pesquisar</button>
 						</form>
 					</div>
 				</div>
 			</div>
+
 			<div class="row">
 				<?php while($rows_cursos = mysqli_fetch_assoc($resultado_cursos)){ ?>
 					<div class="col-sm-6 col-md-4">
@@ -69,7 +73,7 @@ $total_cursos = mysqli_num_rows($resultado_cursos);
 							<img src="imagens/produto.jpg" alt="...">
 							<div class="caption text-center">
 								<a href="detalhes.php?id_curso=<?php echo $rows_cursos['id']; ?>"><h3><?php echo $rows_cursos['nome']; ?></h3></a>
-								<p><a href="#" class="btn btn-primary" role="button">Comprar</a> </p>
+								<p><a href="#" class="btn btn-danger" role="button">Visualizar</a> </p>
 							</div>
 						</div>
 					</div>

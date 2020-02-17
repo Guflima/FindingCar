@@ -15,7 +15,7 @@
           <form action="{{ route('pesquisar.veiculo') }}"> 
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Encontre seu veículo">
+                <input type="text" class="form-control form-control-lg" placeholder="Encontre seu veículo">
                 </div>
               <div class="col-12 col-md-3">
                 <button type="submit" class="btn btn-block btn-lg btn-danger">Vamos lá!</button>
@@ -27,8 +27,9 @@
     </div>
   </header>
 
-
  
+
+
   <!-- Footer -->
   <footer class="footer bg-light">
     <div class="container">

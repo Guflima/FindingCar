@@ -38,12 +38,14 @@ $total_cursos = mysqli_num_rows($resultado_cursos);
 		<title>Criar pagina com abas</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
+	
 	<body>
+
 		<div class="container theme-showcase" role="main">
 			<div class="page-header">
 				<div class="row">
 					<div class="col-sm-6 col-md-6">
-						<h1>Cursos</h1>
+						<h1>Veículos</h1>
 					</div>
 					<div class="col-sm-6 col-md-6">
 						<form class="form-inline" method="GET" action="pesquisar.php">
@@ -51,7 +53,7 @@ $total_cursos = mysqli_num_rows($resultado_cursos);
 								<label for="exampleInputName2">Pesquisar</label>
 								<input type="text" name="pesquisar" class="form-control" id="exampleInputName2" placeholder="Digitar...">
 							</div>
-							<button type="submit" class="btn btn-primary">Pesquisar</button>
+							<button type="submit" class="btn btn-danger">Pesquisar</button>
 						</form>
 					</div>
 				</div>
@@ -63,7 +65,7 @@ $total_cursos = mysqli_num_rows($resultado_cursos);
 							<img src="imagens/produto.jpg" alt="...">
 							<div class="caption text-center">
 								<a href="detalhes.php?id_curso=<?php echo $rows_cursos['id']; ?>"><h3><?php echo $rows_cursos['nome']; ?></h3></a>
-								<p><a href="#" class="btn btn-primary" role="button">Comprar</a> </p>
+								<p><a href="#" class="btn btn-danger" role="button">Visualizar</a> </p>
 							</div>
 						</div>
 					</div>
