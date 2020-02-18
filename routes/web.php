@@ -29,3 +29,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/pesquisar-veiculo', function(){
     return view('pesquisar_veiculos');
 })->name('pesquisar.veiculo');
+
+Route::get('/grafico', function(){
+    return view('graficozinho/grafico');
+})->name('grafico');
