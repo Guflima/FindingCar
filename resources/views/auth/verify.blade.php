@@ -5,20 +5,24 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Verifique seu endereço de e-mail') }}</div>
+                <div class="card-header">@lang('verify_mail.title')</div>
+
+                <div class="loader" style="display: none;"></div>
 
                 <div class="card-body">
                     @if (session('resent'))
                         <div class="alert alert-success" role="alert">
-                            {{ __('Um novo link de verificação foi enviado para o seu endereço de e-mail.') }}
+                            {{ __('Reenviamos o link de confirmação para')}} <strong>{{auth()->user()->email}}</strong>
                         </div>
                     @endif
 
-                    {{ __('Antes de prosseguir, verifique seu e-mail para um link de verificação.') }}
-                    {{ __('Se você não recebeu o email') }}, <a href="{{ route('verification.resend') }}">{{ __('click here to request another') }}</a>.
+                    @lang('verify_mail.message') <strong>{{auth()->user()->email}}</strong> @lang('verify_mail.message_two')
+                    <br>
+                    @lang('verify_mail.message_three') <a href="{{ route('verification.resend') }}" class="upLoader" >@lang('verify_mail.click_here')</a>.
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 @endsection

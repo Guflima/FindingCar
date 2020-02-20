@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\eventos;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -23,6 +25,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $eventos = eventos::orderBy('created_at')->paginate(4);
+        $existAnEvent = count($eventos);
+        if($existAnEvent){
+            $existAnEvent = true;
+        }else{
+            $existAnEvent = null;
+        }
+        return view('sistema.home',['eventos' => $eventos, 'existAnEvent' => $existAnEvent]);
     }
 }
