@@ -30,6 +30,7 @@ Route::get('/pesquisar-veiculo', function(){
     return view('pesquisar_veiculos');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 })->name('pesquisar.veiculo');
 
 Route::get('/grafico', function(){
@@ -107,6 +108,9 @@ Route::prefix(parseLocale())->group(function (){
     });/**Fim do grupo de rotas autenticadas */
 });/**Fim da função parse locale */
 
+=======
+})->name('pesquisar.veiculo');
+>>>>>>> parent of f460330... fiz o grafico na pg 1
 =======
 })->name('pesquisar.veiculo');
 >>>>>>> parent of f460330... fiz o grafico na pg 1
